@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Sadhya</title>
+    <!--Link To Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="app.html">App</a></li>
+                <li><a href="delivery.html">Delivery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+    <section class="contact" id="contact">
+       
+        <div class="contact-container">
+            <div class="left">
+                <div class="heading2">
+                    <h3>Get in Touch</h3>
+                    <span>We are here for you ! How can we help?</span>
+                </div>
+
+                <form id="contactForm" action="#">
+                    <div class="inputBox">
+                        <input type="text" id="name" class="name" placeholder="Your Name" required>
+                        <span class="error" id="nameError"></span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <span class="error" id="emailError"></span>
+                    </div>
+                    <div class="inputBox">   
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                        <span class="error" id="phoneError"></span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea id="message" name="message" placeholder="Your Message..." rows="5" required></textarea>
+                        <span class="error" id="messageError"></span>
+                    </div>
+                    <button type="submit" class="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="right">
+                <div class="illustration">
+                    <img src="img/contactus.svg" alt="">
+                </div>
+                <div class="contact-info">
+                    <div class="infoBox">
+                        <div class="icon">
+                            <i class='bx bx-location-plus'></i>
+                        </div>
+                        <div class="text">
+                            <p>KERALA BITES, G FLOOR, ASSET PULSE, Kakkanad, Kerala </p>
+                        </div>
+                    </div>
+                    <div class="infoBox">
+                        <div class="icon">
+                            <i class='bx bx-phone' ></i>
+                        </div>
+                        <div class="text">
+                            <a href="tel:+91-6282894320">+91-6282894320</a>
+                        </div>
+                    </div>
+                    <div class="infoBox">
+                        <div class="icon">
+                            <i class='bx bx-envelope' ></i>
+                        </div>
+                        <div class="text">
+                            <a href="mailto:keralabites@gmail.com">keralabites@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="#">
+                    <i class='bx bxl-facebook-circle'></i>
+                </a>
+                <a href="#">
+                    <i class='bx bxl-instagram-alt' ></i>
+                </a>
+                <a href="#">
+                    <i class='bx bxl-youtube' ></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
