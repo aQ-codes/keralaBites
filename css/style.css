@@ -114,6 +114,7 @@ header{
 
 .logo img{
     width: 100px;
+    height: 25px;
 }
 
 .navbar{
@@ -451,7 +452,8 @@ footer{
    }
    
 .social-btns img{
-   width: 30%;
+   width: 30px;
+   height: 30px;
    }
    
 .big-txt {
@@ -494,6 +496,7 @@ footer{
 
 .story-img img{
     width: 90%;
+    height: 90%;
 }
 .team-container{
     margin-top: 5rem;
