@@ -405,8 +405,22 @@ footer{
 
 /* download page  */
 
+.app-img{
+    text-align: center;
+}
+.app-img img{
+    height: 100%;
+    width: 80%;
+   
+}
+
+.app-text{
+    padding: 10px;
+}
+
 .social-btns {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
     align-items: center;
    }
